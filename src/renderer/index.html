@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Interview Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="panel">
+    <div class="titlebar">
+      <span class="dot" id="statusDot"></span>
+      <span class="title">Sabatina Assistant</span>
+      <div class="level"><div id="levelBar"></div></div>
+      <button id="toggleBtn">Start</button>
+      <button id="clearBtn" class="close" title="Limpar contexto">🗑</button>
+      <button id="settingsBtn" class="close" title="Configurações">⚙</button>
+      <button id="closeBtn" class="close" title="Fechar">✕</button>
+    </div>
+
+    <div id="settingsPanel" class="settings hidden">
+      <label>Dispositivo de áudio (input)</label>
+      <select id="deviceSelect"></select>
+      <p class="hint">Use <b>BlackHole 2ch</b> + Multi-Output para capturar áudio da chamada.</p>
+
+      <label>Perfil / Currículo</label>
+      <div class="row">
+        <span id="profileInfo" class="hint">Nenhum arquivo carregado</span>
+        <div style="display:flex; gap:6px;">
+          <button id="uploadBtn">Upload</button>
+          <button id="clearProfileBtn" class="close">🗑</button>
+        </div>
+      </div>
+      <p class="hint">PDF, DOCX, TXT ou MD.</p>
+
+      <div class="row">
+        <span id="rmsLabel" class="hint">Nível: —</span>
+        <button id="closeSettings">OK</button>
+      </div>
+    </div>
+
+    <section class="block">
+      <h3>🎧 Entrevistadora (transcrição)</h3>
+      <div id="transcript" class="scroll"></div>
+    </section>
+
+    <section class="block">
+      <h3>❓ Pergunta</h3>
+      <div id="pergunta" class="scroll"></div>
+    </section>
+
+    <section class="block highlight">
+      <h3>💬 Resposta sugerida</h3>
+      <div id="resposta" class="scroll big"></div>
+    </section>
+
+    <div class="footer">
+      <span>⌘⇧H hide · ⌘⇧Space toggle</span>
+      <span id="err"></span>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

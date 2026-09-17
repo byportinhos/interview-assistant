@@ -1,0 +1,57 @@
+{
+  "name": "interview-assistant",
+  "version": "0.1.0",
+  "description": "Floating interview assistant: EN transcription, PT translation, EN answer suggestions",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --enable-logging",
+    "pack": "electron-builder --mac --arm64 --dir",
+    "dist": "electron-builder --mac --arm64"
+  },
+  "author": "Caio Porto",
+  "license": "MIT",
+  "build": {
+    "appId": "br.byporto.interview-assistant",
+    "productName": "Interview Assistant",
+    "asar": true,
+    "files": [
+      "src/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "models",
+        "to": "models"
+      },
+      {
+        "from": ".env",
+        "to": ".env"
+      }
+    ],
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        "dir"
+      ],
+      "identity": null,
+      "hardenedRuntime": false,
+      "gatekeeperAssess": false
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "devDependencies": {
+    "electron": "^33.4.11",
+    "electron-builder": "^25.1.8"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mammoth": "^1.12.1",
+    "node-fetch": "^2.7.0",
+    "node-record-lpcm16": "^1.0.1",
+    "nodejs-whisper": "^0.2.9",
+    "pdf-parse": "^1.1.1"
+  }
+}

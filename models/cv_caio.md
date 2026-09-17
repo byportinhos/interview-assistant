@@ -1,0 +1,62 @@
+CAIOVIEIRAPORTO
+EngenheirodeAutomaçãodeIA|Agentes,Orquestração&Eficiência
+caiovieiraportoo@gmail.com|+552196929-4282|caio.byporto.com.br|RiodeJaneiro,Brasil(remoto)
+Resumo
+EngenheirodeAutomaçãodeIAqueprojeta,desenvolveeorquestraagentesparaautomaçãodeproces-
+sos,comfocoemeficiênciadecusto,confiabilidadeegovernança. Desenvolvoagenteseworkflowscom
+LLMs,RAGepromptengineering,integrosistemasviaAPIs,filaseorquestração,eotimizoconsumodeto-
+kenseperformancedecadafluxo. Priorizoiniciativasporimpactofinanceiroeviabilidadetécnica. Base
+sólidaemPythoneengenhariadesoftware,comexperiênciarealemprodução.
+CompetênciasTécnicas
+•Agentes & Orquestração:agentesdeIAdeetapaúnicaamulti-etapacomtomadadedecisão,toolcall-
+ingehuman-in-the-loop;orquestraçãodefluxoscomLangGraph,LangChainen8n.
+•LLMs & RAG:LLMs(OpenAI,Anthropic,Gemini),promptengineering,RAG,embeddingsebasesvetori-
+ais(pgvector)paraenriquecimentodecontextoereduçãodealucinação.
+•Otimização de Custo & Tokens:roteamentodemodelo(tarefasimplesemmodelobarato,complexano
+modeloforte),cortedecontextoviaRAG,resumodehistóricoecompressãodedadosantesdoenvioao
+LLM;viésdeFinOpsaplicadoaIA.
+•Python & Integrações:Pythonparaautomações,integraçõesepipelines;APIsREST,Webhooks,filase
+mensageria(Redis)entresistemaseserviçosinternos.
+•Confiabilidade & Governança:monitoramento,observabilidadeeevoluçãodeagentesemprodução;
+rastreabilidade,auditoriaecontrolederiscoemdecisõesautomatizadas.
+•Documentação & Arquitetura:definiçãodearquitetura,decisõestécnicaseboaspráticasdeautomação
+comIA,comabrangênciamulti-provedor.
+ExperiênciaProfissional
+EngenheirodeIA&AutomationArchitect2026
+Wite Group·Brasil, Remoto
+•ProjetoeorquestraçãodeagentesdeIA(LLMs,LangGraph,RAG)paraautomaçãodeprocessosopera-
+cionais,daconcepçãoàprodução.
+•ConstruçãodeworkflowsintegrandoLLMsasistemaseserviçosinternosviaPython,n8n,APIs,Web-
+hooks,SQLeDatabricks.
+•Viés de eficiência:roadmappriorizadoporimpactofinanceiroeviabilidadetécnica;automaçõesque
+levaramtarefasdehorasparaminutoseumagentedesuportequereduziuoSLAdehorasparaminutos.
+•Monitoramentoegovernançadeagentesemprodução,comrastreabilidade,auditoriaecontrolede
+risconasdecisõesautomatizadas;documentaçãodearquiteturaeboaspráticas.
+Founder&AIProductBuilder2025–Presente
+byPorto·Rio de Janeiro, Brasil
+•DesenvolvimentoeorquestraçãodeagentesdeIA(conversacionaiseautônomos)comLLMs,RAG(em-
+beddingsempgvector),toolcallingepromptengineering.
+•EstruturaçãodepipelinesdeautomaçãoeintegraçãoviaAPIsREST,Webhooks,filasen8n,conectando
+sistemas,gatewaysdepagamentoebancosdedados.
+•Acompanhamentodeagentesemprodução,comtestes,monitoramentoeiteraçãocontínuacombase
+emresultadoreal.
+ProductOwner/Operations2024–2026
+Alta Diagnósticos (Dasa)·Rio de Janeiro, Brasil
+•Ponteentrenegócioetecnologia: requisitos,priorizaçãoedecisõesorientadaspordados.
+•Gestãode20+KPIs(NPSacimade90,SLAacimade95%)emambientedealtacomplexidade.
+
+ProjetosTécnicosemDestaque
+•Otimização de custo de agente conversacional—reduçãodocustoedalatênciaporconversaviarotea-
+mentodemodelo,contextoenxutocomRAGehistóricoresumido,mantendoaqualidadedaresposta.
+•OM PAY—gatewaydepagamentoconstruídodozero(NestJS+Next,TypeScript/Node): pipelinescom
+filas(Redis),webhookscomdeduperetry,PostgreSQLeDocker. IntegraçãodeAPIseproduçãona
+prática.
+•Aura—assistentedeanálisedeimagemcommodelomultimodal(Gemini),emprodução,comstructured
+outputsepromptengineering.
+Formação
+•Técnico em Desenvolvimento de Sistemas—arquiteturawebeaplicações.
+•MBA em Liderança e Estratégia de Produtos Digitais na Era da IA—Tera(2026).
+•Graduação em Marketing—FaculdadeUnyleya(2022–2024).
+•Formação em Produto & IA (+320h):ProductStrategy,DataAnalytics,AIProductBuilders.
+Idiomas
+Português(nativo)·Inglês(avançado)
